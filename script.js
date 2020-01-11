@@ -12,7 +12,7 @@ const name6 = 'Jane Smith';
 let age6 = 23;
 name6 = 'Jane Miller';
 console.log(name6);
-*/
+
   
 // ES5
 function driversLicense5(passedTest) {
@@ -46,3 +46,26 @@ for (let i = 0; i < 5; i++){
 }
 
 console.log(i);
+*/
+
+//////////////////////////
+// Lecture: Blocks and IIFEs
+
+{
+    const a = 1;
+    let b = 2;
+    var c = 3;
+}
+
+// console.log(a + b);
+console.log(c);
+
+
+// ES5
+
+(function() {
+    var c = 3;
+}) ();
+
+// console.log(c);
+
